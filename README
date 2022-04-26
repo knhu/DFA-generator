@@ -1,0 +1,7 @@
+This project takes a .txt file called "dfa.txt" that contains the amount of states in the deterministic finite automata (first line), the symbols of
+the DFA's alphabet (second line), the individual transitions between one state to another based on what symbol of the alphabet is read in (next couple 
+of lines starting from the third line), the start state of the deterministic finite automata (penultimate line), and the accept state(s) (final line of
+file) and simulates a DFA based on these five components. It will then read example strings from another .txt file called "str.txt" and use them as test 
+strings to run the DFA on to see if the string is in the language of the DFA or not. If it is, we will indicate the string is in the language by accepting
+the string, otherwise we'll reject the string if it isn't in the language. There are also "correct.txt" files that test the correctness of the program. 
+In total, there are 10 test cases for 10 different deterministic finite automatas. 
